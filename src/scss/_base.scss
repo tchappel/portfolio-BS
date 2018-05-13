@@ -1,0 +1,79 @@
+/* START of Styles for Section .skills --------------------------------------------------------------------------------------*/
+/* I divided the rules in "common" and "specific". When you add a new skillbar you can just add one new rule inside "Specific Rules" ----------------------------------------------------------------------------------------------------------------*/
+/* Section Skills - Common Rules --------------- */
+
+.skill {
+    color: white;
+    h2 {
+      color: blue;
+    }
+  
+  }
+  
+  .skill-box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .skill-row {
+    display: flex;  
+    margin: 1rem 0;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;    
+  }
+  
+  .skill-label {
+    flex: 0 0 20%;
+    background: yellow;
+    text-align: center;
+  }
+  
+  .skill-percentage {  
+    background: lightgray;
+    text-align: right;
+    padding-right: 0.2rem;
+    flex: 1 0 auto;
+  }
+  
+  .skill-bar {
+    background: blue;  
+  }
+  
+  /* Section Skills - Specific Rules (Just add here if new skills)------------------------*/
+  /* You can add and style the skillbars here */
+  
+  .skill-bar.html {
+    flex-basis: calc(80% *0.90);
+  }
+  .skill-bar.css {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.js {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.react {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.jq {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.php {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.lv {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  .skill-bar.ux {
+    flex-basis: calc(80% *0.80);
+  }
+  
+  /* END of Specific Rules to style the Section MY SKILLS------------------------*/
+  /* END of Styles for Section .skills -------------------------------------------------------------------------*/
